@@ -1,0 +1,43 @@
+/* span{
+    display: inline-block; 
+    margin: 20px;
+    padding: 20px;
+}
+div{
+    /* display: inline; */
+    /* border: 2px solid crimson;
+    margin: 20px;
+    padding: 20px;
+} */ 
+
+/*p.yo{                              /*to work with a particular class*/
+/*   color: blueviolet;
+}
+div.bro{
+    color: blue;
+}
+div#content{
+    background-color: #f1fe3f;
+    padding: 20px;
+}*/ 
+/*a[href]{                       /*for anchor tag*/
+/*   color: pink;
+    background-color: black;
+    border: 2px solid red;
+}*/
+
+/*inheritance(more specific element will be executed)*/
+div{
+    color: lightcoral;
+    border: 1px solid green;
+    margin: 40px;
+    font-weight: bold;
+}
+div p{
+    border: inherit;
+    margin: inherit;
+    color: purple;
+}
+p{
+    color: orange;
+}
